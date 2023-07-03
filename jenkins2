@@ -1,0 +1,9 @@
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] sh
+[guided-tour] Running shell script
++ node --version
+v16.13.1
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
