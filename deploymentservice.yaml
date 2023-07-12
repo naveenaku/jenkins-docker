@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: naveenakula029/jenkins-dockerjenkins-docker
+        image: naveenakula029/jenkins-docker
         ports:
         - containerPort: 3000
         
