@@ -12,6 +12,7 @@ pipeline {
     stage('K8s Deploy') {
       steps {
         sh '''
+          sed -i "s,DOCKER_IMAGE,naveenakula029/jenkins-docker:$BUILD_NUMBER," deploymentservice.yaml
           kubectl apply -f deploymentservice.yaml
         '''
       }
