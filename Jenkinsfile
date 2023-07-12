@@ -4,7 +4,8 @@ pipeline {
     stage('Docker Build') {
       steps {
         sh '''
-          docker build -t jenkins-docker .
+          docker build -t naveenakula029/jenkins-docker .
+          docker push naveenakula029/jenkins-docker
         '''
       }
     }
