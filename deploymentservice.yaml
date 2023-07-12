@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: jenkins-dcoker:latest
+        image: jenkins-docker:latest
         ports:
         - containerPort: 3000
         
